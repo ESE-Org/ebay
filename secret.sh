@@ -6,7 +6,7 @@ read name
 
 #switch case
 echo "enter pin"
-read pin -s
+read -s pin 
 case $1 in
 1)	
 echo "1"
@@ -21,8 +21,8 @@ echo "The third value is 3";;
 echo "4"
 echo "The fouth value is 4";;
 *)
- echo "sorry you passed the wrong option"
- echo "Options are 1 | 2 | 3 | 4"
+ echo "Wrong Entry"
+ echo "Atleast One number is wrong. Please try again"
  ;;
 esac
 
