@@ -5,4 +5,4 @@ Pro SQL
 AWS
 Jetbrains
 Docker
-
+Other SQL
